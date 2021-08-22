@@ -41,7 +41,7 @@ public abstract class AbstractSolutionTests {
     }
 
     @Test
-    void runAgainstFullGrading() throws IOException {
+    protected void runAgainstFullGrading() throws IOException {
         try {
             run(TestTarget.FULL_GRADING);
         }
